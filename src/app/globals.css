@@ -1,0 +1,115 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --font-sans: "Inter", system-ui, sans-serif;
+    --font-display: "Sora", var(--font-sans);
+  }
+
+  html {
+    scroll-behavior: smooth;
+    -webkit-text-size-adjust: 100%;
+  }
+
+  body {
+    @apply bg-white text-ink antialiased;
+    text-rendering: optimizeLegibility;
+  }
+
+  ::selection {
+    @apply bg-brand-500/25 text-ink;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4 {
+    @apply font-display tracking-tight;
+  }
+
+  /* Focus visible cohérent et accessible */
+  :focus-visible {
+    @apply outline-none ring-2 ring-brand-500 ring-offset-2 ring-offset-white;
+  }
+}
+
+@layer components {
+  .container-px {
+    @apply mx-auto w-full max-w-7xl px-5 lg:px-8;
+  }
+
+  .btn {
+    @apply inline-flex items-center justify-center gap-2 rounded-full px-6 py-3 text-sm font-semibold
+           transition-all duration-200 focus-visible:ring-2 focus-visible:ring-offset-2 disabled:cursor-not-allowed disabled:opacity-60;
+  }
+
+  .btn-primary {
+    @apply btn bg-brand-600 text-white shadow-soft hover:bg-brand-700 hover:shadow-card active:scale-[0.98];
+  }
+
+  .btn-gold {
+    @apply btn bg-gold-500 text-ink shadow-soft hover:bg-gold-600 hover:text-white active:scale-[0.98];
+  }
+
+  .btn-outline {
+    @apply btn border border-ink/15 bg-white/60 text-ink backdrop-blur hover:border-brand-500 hover:text-brand-700;
+  }
+
+  .btn-ghost {
+    @apply btn text-ink/80 hover:bg-ink/5 hover:text-ink;
+  }
+
+  .card {
+    @apply rounded-3xl border border-ink/10 bg-white shadow-soft;
+  }
+
+  .eyebrow {
+    @apply inline-flex items-center gap-2 rounded-full border border-brand-200 bg-brand-50 px-4 py-1.5
+           text-xs font-semibold uppercase tracking-[0.18em] text-brand-700;
+  }
+
+  .lead {
+    @apply text-lg leading-relaxed text-ink/70;
+  }
+
+  .prose-legal h2 {
+    @apply mb-3 mt-10 text-xl font-bold text-ink;
+  }
+  .prose-legal h3 {
+    @apply mb-2 mt-6 text-lg font-semibold text-ink;
+  }
+  .prose-legal p {
+    @apply mb-4 leading-relaxed text-ink/75;
+  }
+  .prose-legal ul {
+    @apply mb-4 list-disc space-y-1.5 pl-6 text-ink/75;
+  }
+  .prose-legal a {
+    @apply font-medium text-brand-700 underline underline-offset-2;
+  }
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+  .bg-mesh {
+    background-color: #03291b;
+    background-image:
+      radial-gradient(at 12% 18%, rgba(18, 176, 101, 0.35) 0px, transparent 55%),
+      radial-gradient(at 88% 8%, rgba(200, 162, 74, 0.18) 0px, transparent 50%),
+      radial-gradient(at 75% 92%, rgba(6, 144, 80, 0.45) 0px, transparent 55%);
+  }
+  .mask-fade-r {
+    -webkit-mask-image: linear-gradient(to right, black 78%, transparent 100%);
+    mask-image: linear-gradient(to right, black 78%, transparent 100%);
+  }
+}
+
+/* Leaflet : neutralise les styles par défaut qui débordent du conteneur arrondi */
+.leaflet-container {
+  font-family: var(--font-sans);
+  border-radius: 1rem;
+}
