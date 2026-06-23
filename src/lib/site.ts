@@ -5,9 +5,9 @@ export const site = {
   description:
     "Midoriad Transports — Livraisons urgentes, tournées régulières, déménagements et transport de marchandises partout en France et à l'international. Devis immédiat, suivi en temps réel.",
   email: process.env.NEXT_PUBLIC_EMAIL ?? "midoriadtransports@hotmail.com",
-  phone: process.env.NEXT_PUBLIC_PHONE ?? "+33 6 00 00 00 00",
-  phoneHref: (process.env.NEXT_PUBLIC_PHONE ?? "+33600000000").replace(/\s+/g, ""),
-  url: process.env.NEXT_PUBLIC_SITE_URL ?? "https://www.midoriad-transports.fr",
+  phone: process.env.NEXT_PUBLIC_PHONE ?? "06 08 48 31 37",
+  phoneHref: (process.env.NEXT_PUBLIC_PHONE ?? "+33608483137").replace(/\s+/g, ""),
+  url: process.env.NEXT_PUBLIC_SITE_URL ?? "https://midoriadtransport.vercel.app",
   address: "France — Service national & international",
   hours: [
     { d: "Lundi – Vendredi", h: "6h00 – 22h00" },
