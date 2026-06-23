@@ -24,19 +24,23 @@ export default function MentionsLegalesPage() {
         Le site <strong>{site.name}</strong> est édité par :
       </p>
       <ul>
-        <li>Dénomination sociale : <ToComplete>[à compléter : raison sociale]</ToComplete></li>
-        <li>Forme juridique : <ToComplete>[à compléter : SARL, SAS, EI…]</ToComplete></li>
-        <li>Capital social : <ToComplete>[à compléter]</ToComplete></li>
-        <li>Siège social : <ToComplete>[à compléter : adresse complète]</ToComplete></li>
-        <li>SIRET : <ToComplete>[à compléter]</ToComplete> — RCS : <ToComplete>[à compléter]</ToComplete></li>
-        <li>N° TVA intracommunautaire : <ToComplete>[à compléter]</ToComplete></li>
+        <li>Dénomination sociale : <strong>MIDORIAD TRANSPORTS</strong></li>
+        <li>Forme juridique : SAS (société par actions simplifiée)</li>
+        <li>Capital social : 1 800 €</li>
+        <li>
+          Siège social : Îlot Basilique, Bât. B – Esc. B1, 18 avenue du Général de
+          Gaulle, 95100 Argenteuil
+        </li>
+        <li>SIRET (siège) : 104 376 108 00015 — RCS Pontoise 104 376 108</li>
+        <li>Code APE/NAF : 49.41A — Transports routiers de fret interurbains</li>
+        <li>N° TVA intracommunautaire : FR 17 104 376 108</li>
         <li>
           Licence de transport / inscription au registre des transporteurs :{" "}
           <ToComplete>[à compléter le cas échéant]</ToComplete>
         </li>
         <li>Adresse e-mail : <a href={`mailto:${site.email}`}>{site.email}</a></li>
         <li>Téléphone : {site.phone}</li>
-        <li>Directeur de la publication : <ToComplete>[à compléter : nom du représentant légal]</ToComplete></li>
+        <li>Directeur de la publication : le Président de MIDORIAD TRANSPORTS, <ToComplete>[à compléter : nom du Président]</ToComplete></li>
       </ul>
 
       <h2>2. Hébergement</h2>

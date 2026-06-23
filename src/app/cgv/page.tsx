@@ -39,8 +39,9 @@ export default function CGVPage() {
         du type de véhicule et, le cas échéant, des majorations (urgence, nuit,
         week-end / jours fériés) et des péages. Toute prestation supplémentaire non
         prévue (attente, manutention additionnelle, étage sans ascenseur, retour à
-        vide…) pourra faire l'objet d'une facturation complémentaire.{" "}
-        <ToComplete>[à compléter : régime de TVA applicable]</ToComplete>
+        vide…) pourra faire l'objet d'une facturation complémentaire. Sauf mention
+        contraire, les prix s'entendent toutes taxes comprises (TVA au taux en vigueur ;
+        n° de TVA intracommunautaire FR 17 104 376 108).
       </p>
 
       <h2>3. Modalités de paiement</h2>

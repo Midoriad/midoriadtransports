@@ -25,8 +25,9 @@ export default function PolitiqueConfidentialitePage() {
 
       <h2>1. Responsable du traitement</h2>
       <p>
-        Le responsable du traitement est <ToComplete>[à compléter : raison sociale et
-        adresse]</ToComplete>. Pour toute question relative à vos données, vous pouvez
+        Le responsable du traitement est <strong>MIDORIAD TRANSPORTS</strong> (SAS),
+        18 avenue du Général de Gaulle, 95100 Argenteuil. Pour toute question relative
+        à vos données, vous pouvez
         nous écrire à <a href={`mailto:${site.email}`}>{site.email}</a>.
       </p>
 
