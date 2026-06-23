@@ -35,12 +35,11 @@ export default function MentionsLegalesPage() {
         <li>Code APE/NAF : 49.41A — Transports routiers de fret interurbains</li>
         <li>N° TVA intracommunautaire : FR 17 104 376 108</li>
         <li>
-          Licence de transport / inscription au registre des transporteurs :{" "}
-          <ToComplete>[à compléter le cas échéant]</ToComplete>
+          Licence de transport de marchandises n° 2026/11/0001664
         </li>
         <li>Adresse e-mail : <a href={`mailto:${site.email}`}>{site.email}</a></li>
         <li>Téléphone : {site.phone}</li>
-        <li>Directeur de la publication : le Président de MIDORIAD TRANSPORTS, <ToComplete>[à compléter : nom du Président]</ToComplete></li>
+        <li>Directeur de la publication : M. Riad AIT YAHIA, Président de MIDORIAD TRANSPORTS</li>
       </ul>
 
       <h2>2. Hébergement</h2>

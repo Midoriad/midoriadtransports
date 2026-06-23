@@ -46,9 +46,10 @@ export default function CGVPage() {
 
       <h2>3. Modalités de paiement</h2>
       <p>
-        Sauf accord particulier, le paiement s'effectue{" "}
-        <ToComplete>[à compléter : à la commande / à réception de facture sous X jours]</ToComplete>.
-        En cas de retard de paiement, des pénalités au taux légal en vigueur ainsi
+        Sauf accord particulier, le paiement s'effectue à la commande ou avant la
+        réalisation de la prestation, par carte bancaire, virement ou espèces. Pour les
+        clients professionnels disposant d'un compte ouvert, le règlement intervient à
+        réception de facture, sous 30 jours. En cas de retard de paiement, des pénalités au taux légal en vigueur ainsi
         qu'une indemnité forfaitaire de recouvrement de 40 € (art. L.441-10 du Code de
         commerce) seront exigibles, sans mise en demeure préalable.
       </p>
@@ -77,7 +78,8 @@ export default function CGVPage() {
         indemnisations en cas de perte ou d'avarie sont plafonnées conformément à la
         réglementation en vigueur, sauf souscription d'une assurance complémentaire
         « ad valorem ». Le Transporteur est couvert par une assurance de responsabilité
-        professionnelle <ToComplete>[à compléter : compagnie & n° de police]</ToComplete>.
+        professionnelle souscrite via Orus (courtier en assurance), n° de police{" "}
+        <ToComplete>[à compléter : n° de contrat figurant sur l'attestation]</ToComplete>.
       </p>
 
       <h2>7. Réclamations</h2>

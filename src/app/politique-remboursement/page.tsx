@@ -30,9 +30,8 @@ export default function PolitiqueRemboursementPage() {
           remboursement intégral ou prestation reportée sans frais.
         </li>
         <li>
-          <strong>Annulation entre 24 h et 4 h avant</strong> : une retenue de{" "}
-          <ToComplete>[à compléter : ex. 30 %]</ToComplete> du montant pourra être
-          appliquée pour couvrir les frais d'organisation.
+          <strong>Annulation entre 24 h et 4 h avant</strong> : une retenue de 30 % du
+          montant pourra être appliquée pour couvrir les frais d'organisation.
         </li>
         <li>
           <strong>Annulation moins de 4 h avant</strong> ou course déjà engagée (départ
@@ -74,8 +73,7 @@ export default function PolitiqueRemboursementPage() {
       <h2>6. Modalités de remboursement</h2>
       <p>
         Les remboursements sont effectués par le même moyen de paiement que celui utilisé
-        lors de la commande, dans un délai maximal de{" "}
-        <ToComplete>[à compléter : ex. 14 jours]</ToComplete> à compter de l'accord de
+        lors de la commande, dans un délai maximal de 14 jours à compter de l'accord de
         remboursement.
       </p>
 
