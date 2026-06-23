@@ -78,8 +78,9 @@ export default function CGVPage() {
         indemnisations en cas de perte ou d'avarie sont plafonnées conformément à la
         réglementation en vigueur, sauf souscription d'une assurance complémentaire
         « ad valorem ». Le Transporteur est couvert par une assurance de responsabilité
-        professionnelle souscrite via Orus (courtier en assurance), n° de police{" "}
-        <ToComplete>[à compléter : n° de contrat figurant sur l'attestation]</ToComplete>.
+        professionnelle souscrite via Orus (courtier en assurance), police RC
+        professionnelle n° RCPH278604074, couvrant le transport de marchandises en
+        véhicule de moins de 3,5 tonnes.
       </p>
 
       <h2>7. Réclamations</h2>
